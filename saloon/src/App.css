@@ -1,0 +1,67 @@
+#img1{
+  width: 5px;
+  height: 4px;
+  position: relative;
+}
+  
+  #search  img {
+    position: absolute;
+    width: 461px;
+    height: 440px;
+    top: 194.5px;
+    left: 900px;
+     object-fit: contain;
+    background-color: #FFFFFF;
+  }
+ 
+#footer1 {
+  width: 1920px;
+  height: 180px;
+  top: 2640px;
+  background-color:  #EE2478;
+  display: flex;
+  
+  
+}
+
+#descreption{
+  width: 622px;
+  height: 64px;
+  top: 2701px;
+  left: 199px;
+
+}
+#des1{
+  font-family: sans-serif;
+  font-weight: 400;
+ 
+ 
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  
+}
+#input {
+  width: 424px; 
+  height: 63px;
+  top: 2699px;
+  left: 1050px;
+  border-radius: 4px;
+  border: 1px solid ;
+  color: #FFFFFF;
+
+}
+
+#button {
+  width: 221px;
+  height: 63px;
+  left: 1721px;
+  top: 2699px;
+  border-radius: 4px;
+ background-color: #FFFFFF;
+  motion-rotation: 180 deg;
+  
+}
+
+ 
+  
+
