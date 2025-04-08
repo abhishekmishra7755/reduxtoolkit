@@ -6,6 +6,7 @@ import Home from './components/Home';
 import BusinessClientForm from './components/BusinessClientForm';
 import ClientList from './components/ClientList';
 import EditClientForm from './components/EditClientForm';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,11 +14,12 @@ function App() {
       <Header />
       <div className="max-w-2xl p-4 mx-auto">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home/>}/>
           <Route path="/add-client" element={<BusinessClientForm />} />
           <Route path="/client-list" element={<ClientList />} />
           <Route path="/edit-client/:id" element={<EditClientForm />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );

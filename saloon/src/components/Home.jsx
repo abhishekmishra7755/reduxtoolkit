@@ -1,11 +1,17 @@
 // 📁 src/components/Home.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
+import client from '../assets/img/client.jpg'
 
 const Home = () => {
   return (
-    <div className="mt-10 text-center">
-      <h1 className="mb-4 text-3xl font-bold">Welcome to Business Client Management</h1>
+    <div className="flex w-full h-full p-4 -mt-4 ">
+        <div className='flex gap-20'>
+            <div className='w-full h-full'>
+                <img src={client } alt="Logo" className="w-[1000px] h-[300px]" />
+            </div>
+            <div className="flex-col">
+            <h1 className="mb-4 text-3xl font-bold">Welcome to Business Client Management</h1>
       <p className="mb-6 text-lg text-gray-700">
         Manage your business clients efficiently. Add, update, or delete client details as needed.
       </p>
@@ -23,6 +29,10 @@ const Home = () => {
           View Clients
         </Link>
       </div>
+                
+            </div>
+        </div>
+     
     </div>
   );
 };
