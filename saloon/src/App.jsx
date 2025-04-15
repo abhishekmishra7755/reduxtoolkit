@@ -8,18 +8,21 @@ import ClientList from './components/ClientList';
 import EditClientForm from './components/EditClientForm';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <Router>
       <Header />
-      <div className="max-w-2xl p-4 mx-auto">
+      <div className="max-w-2xl mt-10 mb-10 bg-gray-100 ">
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/add-client" element={<BusinessClientForm />} />
           <Route path="/client-list" element={<ClientList />} />
           <Route path="/edit-client/:id" element={<EditClientForm />} />
         </Routes>
-        <Footer/>
+          <div className='mt-10 '>
+            <Footer />
+          </div>
       </div>
     </Router>
   );

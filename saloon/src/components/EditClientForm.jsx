@@ -107,7 +107,7 @@ const EditClientForm = () => {
             value={formData.details}
             onChange={handleChange}
             className="w-full px-3 py-2 border rounded"
-            rows="4"
+            rows="2"
           ></textarea>
         </div>
         <button type="submit" className="px-4 py-2 text-white bg-green-600 rounded">
